@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.tmp_commit_msg_*
+
+# Vendor binaries (re-fetch with scripts/fetch_vendor.sh)
+vendor/*.zip
+vendor/gen-interface-jp/
+vendor/pretendard/
+
+# Build outputs
+dist/
+build-release/
+
+__pycache__/
+*.pyc
