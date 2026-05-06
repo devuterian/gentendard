@@ -17,8 +17,8 @@ The repository contains the merge pipeline, documentation, and repo-template gov
 ### Release v0.1.0
 
 - **Goal:** Publish zip with TTF, OTF, WOFF2 and accurate OFL attribution.
-- **Status:** `in progress`
-- **Exit criteria:** Release asset uploaded; README links live.
+- **Status:** `done`
+- **Exit criteria:** Release asset uploaded; README links live (met for v0.1.0).
 
 ## Recent changes to project reality
 
