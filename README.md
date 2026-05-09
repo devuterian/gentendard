@@ -8,7 +8,7 @@
 
 ## 받기
 
-**[Releases](https://github.com/devuterian/gentendard/releases)** 에서 **v0.1.0** 아티팩트(zip)를 받을 수 있어요. zip 안에는 `OFL.txt`, `ttf/`, `otf/`, `webfont/`(WOFF2)가 들어 있습니다.
+**[Releases](https://github.com/devuterian/gentendard/releases)** 에서 **v0.1.1** 아티팩트(zip)를 받을 수 있어요. zip 안에는 `OFL.txt`, `ttf/`, `otf/`, `webfont/`(WOFF2)가 들어 있습니다.
 
 **이 빌드는 자동·수동 품질 검증이 끝나지 않은 초기 버전이에요.** 프로덕션에 쓰기 전에 반드시 화면에서 직접 확인해 주세요.
 
@@ -21,7 +21,7 @@
 ```bash
 python3 -m pip install -r requirements.txt
 make build
-make package   # build-release/gentendard-0.1.0.zip
+make package   # build-release/gentendard-0.1.1.zip
 ```
 
 ---

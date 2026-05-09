@@ -8,7 +8,7 @@
 
 ## Download
 
-See **[Releases](https://github.com/devuterian/gentendard/releases)** for the **v0.1.0** zip. It contains `OFL.txt`, `ttf/`, `otf/`, and `webfont/` (WOFF2).
+See **[Releases](https://github.com/devuterian/gentendard/releases)** for the **v0.1.1** zip. It contains `OFL.txt`, `ttf/`, `otf/`, and `webfont/` (WOFF2).
 
 **This is an early, untested build.** Validate in your own environment before production use.
 

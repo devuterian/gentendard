@@ -152,12 +152,30 @@ def _ensure_vmtx(dst: TTFont, gname: str, default: Tuple[int, int]) -> None:
 
 
 def _rename_family(font: TTFont, family: str, subfamily: str, ps_name: str) -> None:
+    """Rewrite `name` table so macOS/Windows show *family* (not upstream Gen names)."""
     name = font["name"]
+    version_num = "1.000"
+    for rec in name.names:
+        if rec.nameID == 5:
+            try:
+                ver = rec.toUnicode().replace("Version", "").strip().split()
+                if ver:
+                    version_num = ver[0]
+            except Exception:
+                pass
+            break
+
+    unique_id = f"{version_num};{ps_name}"
+    full_name = f"{family} {subfamily}"
+
     for nid, s in (
         (1, family),
         (2, subfamily),
-        (4, f"{family} {subfamily}"),
+        (3, unique_id),
+        (4, full_name),
         (6, ps_name),
+        (16, family),
+        (17, subfamily),
     ):
         name.setName(s, nid, 3, 1, 0x409)
         try:

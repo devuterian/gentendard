@@ -35,4 +35,4 @@ python3 scripts/build_gentendard.py --no-woff2
 make package
 ```
 
-`build-release/gentendard-0.1.0.zip`에 `OFL.txt`, `ttf/`, `otf/`, `webfont/`가 들어갑니다. 버전은 `GENTENDARD_RELEASE_VERSION`으로 바꿀 수 있습니다.
+`build-release/gentendard-0.1.1.zip`에 `OFL.txt`, `ttf/`, `otf/`, `webfont/`가 들어갑니다. 버전은 `GENTENDARD_RELEASE_VERSION`으로 바꿀 수 있습니다.

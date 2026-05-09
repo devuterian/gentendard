@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 ROOT=$(CDPATH= cd "$(dirname "$0")/.." && pwd)
-VERSION="${GENTENDARD_RELEASE_VERSION:-0.1.0}"
+VERSION="${GENTENDARD_RELEASE_VERSION:-0.1.1}"
 OUT_DIR="${ROOT}/build-release"
 STAGING="${OUT_DIR}/gentendard-${VERSION}"
 

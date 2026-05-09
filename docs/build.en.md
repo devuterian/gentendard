@@ -21,4 +21,4 @@ make build
 make package
 ```
 
-Writes `build-release/gentendard-0.1.0.zip` (override with `GENTENDARD_RELEASE_VERSION`).
+Writes `build-release/gentendard-0.1.1.zip` (override with `GENTENDARD_RELEASE_VERSION`).

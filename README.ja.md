@@ -8,7 +8,7 @@
 
 ## 入手
 
-**[Releases](https://github.com/devuterian/gentendard/releases)** の **v0.1.0** に zip があります。`OFL.txt`、`ttf/`、`otf/`、`webfont/`（WOFF2）を含みます。
+**[Releases](https://github.com/devuterian/gentendard/releases)** の **v0.1.1** に zip があります。`OFL.txt`、`ttf/`、`otf/`、`webfont/`（WOFF2）を含みます。
 
 **本バージョンは十分に検証されていない初期ビルドです。** 本番利用前に必ず表示を確認してください。
 
